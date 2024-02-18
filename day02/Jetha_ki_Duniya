@@ -1,0 +1,16 @@
+#!/bin/bash
+<< testcomment
+The written here would not execute at all
+testcomment
+
+name="babitaji"
+echo "Name is $name, and date is $(date)"
+
+echo "enter the name:"
+read username 
+
+echo "you entered $username"
+echo "The characters in $0 are $1 and $2"
+
+
+

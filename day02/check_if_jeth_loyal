@@ -1,0 +1,28 @@
+#!/bin/bash
+
+<< disclaimer
+
+This would not show.
+
+disclaimer
+# this is function definition
+function is_loyal()
+{
+
+read -p "Jetha ne mud ke kise dekha: " bandi
+read -p "Jetha ka pyar %" pyaar
+if [[ $bandi == "daya bhabhi" ]];
+then 
+echo "Jetha is loyal"
+elif [[ $pyaar -ge 100 ]];
+then
+	echo "Jetha is loyal"
+
+else echo "jetha is not loyal"
+
+fi
+}
+#This is function call
+
+is_loyal
+
